@@ -25,8 +25,6 @@ Inspired by the idea of preserving linguistic and cultural diversity, VoiceMap g
  
  https://wiki-lango-nfdtjcw50-juniahsolos-projects.vercel.app/ 
  
-https://wikilango-the-world-spea-s4hw55k.gamma.site/
-
 ## 🌐 Features
 
 - Interactive Leaflet.js map with country polygon layers
