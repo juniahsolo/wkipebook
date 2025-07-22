@@ -17,12 +17,13 @@ Inspired by the idea of preserving linguistic and cultural diversity, VoiceMap g
 
 | Layer       | Tech Stack                                      |
 |-------------|--------------------------------------------------|
-| Frontend    | HTML, CSS, JavaScript (Leaflet.js, Vanilla TS)   |
+| Frontend    | react, taliwindcss , JavaScript (Leaflet.js, Vanilla TS)   |
 | Backend     | Node.js, Express.js, TypeScript                  |
 | Database    | MongoDB Atlas                                    |
 | Geodata     | GeoJSON (Country boundaries from open data sets) |
 
----
+ 
+ https://wiki-lango-nfdtjcw50-juniahsolos-projects.vercel.app/ 
 
 ## 🌐 Features
 
@@ -46,14 +47,14 @@ Inspired by the idea of preserving linguistic and cultural diversity, VoiceMap g
 voicemap/
 ├── client/ # Frontend assets
 │ ├── index.html # Map interface + splash
-│ ├── styles.css # Basic UI styling
+│ ├──Taliwindcss#  UI styling
 │ └── map.js # Leaflet map logic
 ├── server/ # Backend Node.js + Express + TS
 │ ├── controllers/
 │ ├── models/
 │ ├── routes/
 │ └── app.ts # Main Express app
-├── public/ # Uploaded assets (if stored locally)
+├── public/ 
 ├── .env # Environment variables (Mongo URI, etc.)
 ├── tsconfig.json # TypeScript config
 └── README.md
@@ -78,7 +79,7 @@ pnpm run start
 npx serve client
 ```
 
-## 📦 Dependencies
+## 📦 Dependencies                 
 ```bash
 pnpm install
 ```
