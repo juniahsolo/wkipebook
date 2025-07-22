@@ -1,6 +1,6 @@
-# 🌍 VoiceMap — Explore the Languages of the World
+# 🌍 WikiLango — Explore the Languages of the World
 
-VoiceMap is an interactive web application that allows users to explore the languages and dialects spoken around the world. It provides a clickable map interface where users can listen to, view, and contribute voice recordings and words in different languages, tied to specific geographic locations.
+WikiLango is an interactive web application that allows users to explore the languages and dialects spoken around the world. It provides a clickable map interface where users can listen to, view, and contribute voice recordings and words in different languages, tied to specific geographic locations.
 
 ## 🧠 Concept
 
@@ -44,7 +44,7 @@ Inspired by the idea of preserving linguistic and cultural diversity, VoiceMap g
 
 ## 📂 Project Structure
 
-voicemap/
+wikilango/
 ├── client/ # Frontend assets
 │ ├── index.html # Map interface + splash
 │ ├──Taliwindcss#  UI styling
