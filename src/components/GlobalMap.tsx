@@ -30,10 +30,13 @@ interface Submission {
   lng: number;
 }
 
+import Auth from './Auth';
+
 export const GlobalMap: React.FC = () => {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<L.Map | null>(null);
   const [isFormOpen, setIsFormOpen] = useState(false);
+  const [showAuth, setShowAuth] = useState(false);
   const [selectedCountry, setSelectedCountry] = useState<CountryData | null>(null);
   const [submissions, setSubmissions] = useState<Submission[]>([]);
 
@@ -195,6 +198,15 @@ export const GlobalMap: React.FC = () => {
         }}
         country={selectedCountry}
       />
+      <div className="absolute top-4 right-4 z-[1000]">
+        <button
+            onClick={() => setShowAuth(true)}
+            className="bg-white text-gray-700 px-4 py-2 rounded-lg font-medium hover:bg-gray-100 transition-colors shadow-md"
+        >
+            Sign In
+        </button>
+      </div>
+      {showAuth && <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-[1001] flex items-center justify-center" onClick={() => setShowAuth(false)}><Auth /></div>}
     </>
   );
 };
