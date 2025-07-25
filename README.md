@@ -18,12 +18,12 @@ Inspired by the idea of preserving linguistic and cultural diversity, VoiceMap g
 | Layer       | Tech Stack                                      |
 |-------------|--------------------------------------------------|
 | Frontend    | react, taliwindcss , JavaScript (Leaflet.js, Vanilla TS)   |
-| Backend     | Node.js, Express.js, TypeScript                  |
+| Backend     | Node.js, Express.js, Brycript, Express js common js TypeScript                  |
 | Database    | MongoDB Atlas                                    |
 | Geodata     | GeoJSON (Country boundaries from open data sets) |
 
  
- https://wiki-lango-nfdtjcw50-juniahsolos-projects.vercel.app/ 
+ 
  
 ## 🌐 Features
 
